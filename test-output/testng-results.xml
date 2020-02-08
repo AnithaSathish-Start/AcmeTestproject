@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52590" started-at="2020-02-08T09:40:21Z" finished-at="2020-02-08T09:41:13Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="52590" started-at="2020-02-08T09:40:21Z" finished-at="2020-02-08T09:41:13Z">
+      <class name="com.leafBot.testcases.AcmeTest_TestCase001">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="startReport" is-config="true" duration-ms="616" started-at="2020-02-08T09:40:20Z" finished-at="2020-02-08T09:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="setValues" is-config="true" duration-ms="4" started-at="2020-02-08T09:40:21Z" finished-at="2020-02-08T09:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="setUpClass" is-config="true" duration-ms="168" started-at="2020-02-08T09:40:21Z" finished-at="2020-02-08T09:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="report" is-config="true" duration-ms="6" started-at="2020-02-08T09:40:21Z" finished-at="2020-02-08T09:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="beforeMethod" is-config="true" duration-ms="4972" started-at="2020-02-08T09:40:22Z" finished-at="2020-02-08T09:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AcmePageLogin(java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="AcmePageLogin" duration-ms="46662" started-at="2020-02-08T09:40:27Z" data-provider="fetchData" finished-at="2020-02-08T09:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcmePageLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="afterMethod" is-config="true" duration-ms="68" started-at="2020-02-08T09:41:13Z" finished-at="2020-02-08T09:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-02-08T09:41:13Z" finished-at="2020-02-08T09:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.AcmeTest_TestCase001@294425a7]" name="stopReport" is-config="true" duration-ms="472" started-at="2020-02-08T09:41:13Z" finished-at="2020-02-08T09:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.AcmeTest_TestCase001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
